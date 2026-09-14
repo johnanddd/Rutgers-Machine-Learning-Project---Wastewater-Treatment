@@ -10,6 +10,8 @@ I led my team of 3 other students and wrote the MATLAB code used to process the 
 
 The plots show the actual vs. predicted values, residuals, and RMSE comparison between the three models.
 
+Because the train/test split is randomized, the exact results may vary slightly between runs.
+
 ## How It Works
 
 The program uses the following wastewater treatment variables as inputs:
@@ -35,15 +37,7 @@ Each model is evaluated using:
 - Actual vs. predicted plots
 - Residual plots
 
-## Example Results
-
-![Model comparison and residual plots](ID3A_ML_Project_Graphs.png)
-
-The plots show the actual vs. predicted values, residuals, and RMSE comparison between the three models.
-
-Because the train/test split is randomized, the exact results may vary slightly between runs.
-
-## Files
+## Project Files
 
 - `wastewater_ml_model.m` - MATLAB code for loading the data, training the models, evaluating performance, and generating plots
 - `all_data.csv` - Wastewater treatment dataset used by the program
