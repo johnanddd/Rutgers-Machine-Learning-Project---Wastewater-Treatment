@@ -4,6 +4,12 @@ This was a Rutgers School of Engineering team project for the class ID3A II focu
 
 I led my team of 3 other students and wrote the MATLAB code used to process the data, train the models, compare their performance, and visualize the results.
 
+## Example Results
+
+![Model comparison and residual plots](project_files/ID3A_ML_Project_Graphs.png)
+
+The plots show the actual vs. predicted values, residuals, and RMSE comparison between the three models.
+
 ## How It Works
 
 The program uses the following wastewater treatment variables as inputs:
